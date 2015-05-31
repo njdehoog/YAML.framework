@@ -29,7 +29,7 @@
 		EB6C422C124D9A4B00886AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6C3FB9124D872600886AD1 /* Foundation.framework */; };
 		EB6C4252124D9B4A00886AD1 /* yaml in Copy YAML Files */ = {isa = PBXBuildFile; fileRef = EB6C424F124D9B3E00886AD1 /* yaml */; };
 		EB6C433C124E0CF600886AD1 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6C4226124D9A1700886AD1 /* test.m */; };
-		EB8C1AB014B795CC00BCDC1A /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8C1AAF14B795CC00BCDC1A /* yaml.h */; };
+		EB8C1AB014B795CC00BCDC1A /* yaml_c.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8C1AAF14B795CC00BCDC1A /* yaml_c.h */; };
 		EB8C1ABA14B795E200BCDC1A /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = EB8C1AB114B795E200BCDC1A /* api.c */; };
 		EB8C1ABB14B795E200BCDC1A /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = EB8C1AB214B795E200BCDC1A /* dumper.c */; };
 		EB8C1ABC14B795E200BCDC1A /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = EB8C1AB314B795E200BCDC1A /* emitter.c */; };
@@ -46,6 +46,7 @@
 		EBE745C7124F8C2F00618049 /* spec12examples.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE745AF124F8B5000618049 /* spec12examples.m */; };
 		EBF83D8B124D7A3E008517E5 /* YAMLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF83D89124D7A3E008517E5 /* YAMLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBF83D8C124D7A3E008517E5 /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF83D8A124D7A3E008517E5 /* YAMLSerialization.m */; };
+		FD7A13921B1B4AC600964E6B /* YAML.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7A13911B1B4A8500964E6B /* YAML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,7 +125,7 @@
 		EB6C420E124D99BE00886AD1 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6C4226124D9A1700886AD1 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		EB6C424F124D9B3E00886AD1 /* yaml */ = {isa = PBXFileReference; lastKnownFileType = folder; path = yaml; sourceTree = "<group>"; };
-		EB8C1AAF14B795CC00BCDC1A /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = yaml.h; path = "yaml-0.1.4/include/yaml.h"; sourceTree = "<group>"; };
+		EB8C1AAF14B795CC00BCDC1A /* yaml_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = yaml_c.h; path = "yaml-0.1.4/include/yaml_c.h"; sourceTree = "<group>"; };
 		EB8C1AB114B795E200BCDC1A /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = api.c; path = "yaml-0.1.4/src/api.c"; sourceTree = "<group>"; };
 		EB8C1AB214B795E200BCDC1A /* dumper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dumper.c; path = "yaml-0.1.4/src/dumper.c"; sourceTree = "<group>"; };
 		EB8C1AB314B795E200BCDC1A /* emitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emitter.c; path = "yaml-0.1.4/src/emitter.c"; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		EBE745C1124F8C0D00618049 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF83D89124D7A3E008517E5 /* YAMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLSerialization.h; sourceTree = "<group>"; };
 		EBF83D8A124D7A3E008517E5 /* YAMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMLSerialization.m; sourceTree = "<group>"; };
+		FD7A13911B1B4A8500964E6B /* YAML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAML.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				32DBCF5E0370ADEE00C91783 /* YAML_Prefix.pch */,
+				FD7A13911B1B4A8500964E6B /* YAML.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -306,7 +309,7 @@
 				EB8C1AB714B795E200BCDC1A /* scanner.c */,
 				EB8C1AB814B795E200BCDC1A /* writer.c */,
 				EB8C1AB914B795E200BCDC1A /* yaml_private.h */,
-				EB8C1AAF14B795CC00BCDC1A /* yaml.h */,
+				EB8C1AAF14B795CC00BCDC1A /* yaml_c.h */,
 			);
 			name = "yaml-0.1.4";
 			sourceTree = "<group>";
@@ -318,8 +321,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7A13921B1B4AC600964E6B /* YAML.h in Headers */,
 				EBF83D8B124D7A3E008517E5 /* YAMLSerialization.h in Headers */,
-				EB8C1AB014B795CC00BCDC1A /* yaml.h in Headers */,
+				EB8C1AB014B795CC00BCDC1A /* yaml_c.h in Headers */,
 				EB8C1AC214B795E200BCDC1A /* yaml_private.h in Headers */,
 				EB8C1AC414B7964500BCDC1A /* config.h in Headers */,
 			);

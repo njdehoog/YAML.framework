@@ -10,7 +10,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "yaml.h"
+#include "yaml_c.h"
 
 #ifdef NDEBUG
 #undef NDEBUG

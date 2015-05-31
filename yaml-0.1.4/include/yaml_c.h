@@ -8,8 +8,8 @@
  * @endcode
  */
 
-#ifndef YAML_H
-#define YAML_H
+#ifndef YAML_yaml_c_h
+#define YAML_yaml_c_h
 
 #ifdef __cplusplus
 extern "C" {

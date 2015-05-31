@@ -3,7 +3,7 @@
 #import "config.h"
 #endif
 
-#include <yaml.h>
+#include <yaml_c.h>
 
 #include <assert.h>
 #include <limits.h>
